@@ -13,15 +13,16 @@ formulario.addEventListener("submit", function(event))
             mensagem.textContent = "Nome de usuário válido";
             mensagem.style.color = "green";
         }
+        
+        else if (nome_usuário = null)
+        {
+            mensagem.textContent = "Por favor, insira um nome de usuário.";
+            mensagem.style.color = "red"
+        }
         else
         {
             mensagem.textContent = "Nome de usuário inválido. Por favor, siga as regras.";
             mensagem.style.color = "red";
-        }
-        else
-        {
-            mensagem.textContent = "Por favor, insira um nome de usuário.";
-            mensagem.style.color = "red"
         }
     }
 }
