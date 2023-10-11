@@ -31,7 +31,7 @@ function atualizarTabela()
         tdNota.innerText = alunos[i].nota;
         tr;appendChild(tdNome);
         tr.appendChild(tdNota);
-        tabelaNotas.appendCh
+        tabelaNotas.appendChild(tr);
     }
 }
 
